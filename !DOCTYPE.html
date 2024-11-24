@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0.5rem 0 1rem;
+        }
+        .cta {
+            background: #f4f4f4;
+            padding: 2rem;
+            text-align: center;
+        }
+        .cta h2 {
+            margin-bottom: 1rem;
+            color: #333;
+        }
+        .cta button {
+            padding: 1rem 2rem;
+            background: #ff6600;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+        .cta button:hover {
+            background: #e65c00;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 2rem;
+            background: #fff;
+        }
+        .features div {
+            text-align: center;
+            padding: 1rem;
+        }
+        .features div h3 {
+            color: #333;
+        }
+        .contact-form {
+            background: #f4f4f4;
+            padding: 2rem;
+            text-align: center;
+        }
+        .contact-form form {
+            display: inline-block;
+            text-align: left;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 300px;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 0.8rem 2rem;
+            background: #ff6600;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #e65c00;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Car Rental Services</h1>
+        <p>Fast, Affordable, and Convenient Car Rentals</p>
+    </header>
+
+    <section class="cta">
+        <h2>Book Your Car Today!</h2>
+        <button onclick="alert('Booking coming soon!')">Reserve Now</button>
+    </section>
+
+    <section class="features">
+        <div>
+            <h3>Wide Selection</h3>
+            <p>Choose from economy, luxury, and family cars.</p>
+        </div>
+        <div>
+            <h3>Affordable Prices</h3>
+            <p>Get the best deals for daily, weekly, or monthly rentals.</p>
+        </div>
+        <div>
+            <h3>24/7 Support</h3>
+            <p>Our team is here to assist you anytime, anywhere.</p>
+        </div>
+    </section>
+
+    <section class="contact-form">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Car Rental Services. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
